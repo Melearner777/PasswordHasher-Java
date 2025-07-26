@@ -11,7 +11,7 @@ This project demonstrates secure authentication techniques and is great for stud
 ---
 
 # Project Structure
-
+```bash
 PasswordHasher-Java/
 ├── lib/
 │ └── jbcrypt-0.4.jar
@@ -20,7 +20,7 @@ PasswordHasher-Java/
 │ ├── SHA256Hasher.java
 │ └── PasswordHasher.java
 └── README.md
-
+```
 
 ---
 
@@ -66,9 +66,10 @@ java -cp ".;lib/jbcrypt-0.4.jar;src" PasswordHasher
 
 **Concepts Demonstrated**
 Feature	Tech Used	Purpose
-....
+```bash
 Password Hashing	Java + SHA-256/BCrypt	Secure authentication
 External Jar Usage	jBCrypt	Learn library handling
+```
 
 
 
