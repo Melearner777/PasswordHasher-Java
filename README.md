@@ -1,5 +1,5 @@
-# PasswordHasher-Java
-# 🔐 Password Hasher - Java
+
+# Password Hasher - Java
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java](https://img.shields.io/badge/Java-17%2B-blue.svg)](https://www.oracle.com/java/)
@@ -10,7 +10,7 @@ This project demonstrates secure authentication techniques and is great for stud
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 PasswordHasher-Java/
 ├── lib/
@@ -24,7 +24,7 @@ PasswordHasher-Java/
 
 ---
 
-## 🚀 Features
+#Features
 
 -  Hash passwords using **SHA-256**
 -  Hash passwords using **BCrypt**
@@ -33,29 +33,41 @@ PasswordHasher-Java/
 
 ---
 
-##  How to Run
+# How to Run
 
-###  Compile the code
+#Compile the code
 
 > On Windows:
 
+## 🛠️ How to Compile
+
+## 🏃 How to Run
+
+### 💻 Compile the code
+
+#On Windows:
+
 ```bash
 javac -cp ".;lib/jbcrypt-0.4.jar" src/*.java
-On macOS/Linux (replace ; with :):
+```
+#ON MAC
+```bash
+ON MAC
 javac -cp ".:lib/jbcrypt-0.4.jar" src/*.java
+```
+**Add JBCrypt to Your Project**
+Download jbcrypt-0.4.jar from Maven Repository
 
-📦 Dependencies
-✅ jbcrypt-0.4.jar – Used for BCrypt password hashing
+Add it to your classpath:
+```bash
+javac -cp ".;lib/jbcrypt-0.4.jar" src/*.java
+java -cp ".;lib/jbcrypt-0.4.jar;src" PasswordHasher
+```
 
-🧪 Example Output
-Enter password to hash: hello123
-Choose hashing algorithm (1: SHA-256, 2: BCrypt): 2
-BCrypt Hashed Password: $2a$12$kDi3sFGURm3lHDu5rh8Pue1rT2e4Ka...
-
-📜 License
-This project is licensed under the MIT License.
-Feel free to use, modify, and share it.
-
+**Concepts Demonstrated**
+Feature	Tech Used	Purpose
+Password Hashing	Java + SHA-256/BCrypt	Secure authentication
+External Jar Usage	jBCrypt	Learn library handling
 
 
 
