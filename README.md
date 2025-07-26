@@ -39,11 +39,11 @@ PasswordHasher-Java/
 
 > On Windows:
 
-## 🛠️ How to Compile
+#How to Compile
 
-## 🏃 How to Run
+## How to Run
 
-### 💻 Compile the code
+# Compile the code
 
 #On Windows:
 
@@ -66,6 +66,7 @@ java -cp ".;lib/jbcrypt-0.4.jar;src" PasswordHasher
 
 **Concepts Demonstrated**
 Feature	Tech Used	Purpose
+....
 Password Hashing	Java + SHA-256/BCrypt	Secure authentication
 External Jar Usage	jBCrypt	Learn library handling
 
